@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>InstantIQ</title>
+  <style>
+    body{font-family:system-ui,sans-serif;width:280px;padding:16px;background:#1a1a2e;color:#eee;margin:0}
+    h2{margin:0 0 16px;color:#7c83f7;font-size:16px}
+    label{display:block;font-size:12px;color:#aaa;margin-bottom:4px}
+    input[type=text]{width:100%;box-sizing:border-box;background:#0f3460;border:1px solid #333;
+      border-radius:6px;color:#eee;padding:8px;font-size:13px;margin-bottom:12px}
+    .row{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+    #status-text{font-size:12px;padding:4px 10px;border-radius:12px;background:#0f3460}
+    #status-text.listening{background:#1a4d3a;color:#4ecca3}
+    #status-text.off{background:#3d1515;color:#e07070}
+    #status-text.nokey{background:#3d2e00;color:#e0b870}
+  </style>
+</head>
+<body>
+  <h2>InstantIQ</h2>
+  <label for="api-key-input">Gemini API Key</label>
+  <input type="text" id="api-key-input" placeholder="AIza...">
+  <div class="row">
+    <label for="enabled-toggle" style="margin:0">Active</label>
+    <input type="checkbox" id="enabled-toggle">
+  </div>
+  <div class="row">
+    <span style="font-size:12px;color:#aaa">Status</span>
+    <span id="status-text" class="off">Off</span>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
