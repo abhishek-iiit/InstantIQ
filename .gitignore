@@ -1,3 +1,6 @@
+# Local docs (AI-generated plans/specs)
+docs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
