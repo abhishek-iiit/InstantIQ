@@ -4,6 +4,8 @@
 
 InstantIQ is a Chrome extension that silently monitors every page you visit and uses Google Gemini to detect quiz questions — from network traffic, DOM changes, or raw screenshots — then surfaces the answer in a floating overlay before you have to ask.
 
+<img width="2896" height="1668" alt="image" src="https://github.com/user-attachments/assets/e0d50134-1270-408c-8f5e-d8802d738146" />
+
 ---
 
 ## How It Works
